@@ -7,10 +7,10 @@ const app = express();
 
 // Replace these with your actual details
 const WIX_API_URL = 'https://www.wixapis.com/stores/v1';
-const WIX_API_KEY = 'IST.eyJraWQiOiJQb3pIX2FDMiIsImFsZyI6IlJTMjU2In0.eyJkYXRhIjoie1wiaWRcIjpcIjI5MjlhODUxLTU4MmItNDNhZi1hYzlkLTE2MTdlZTY0NDZkYlwiLFwiaWRlbnRpdHlcIjp7XCJ0eXBlXCI6XCJhcHBsaWNhdGlvblwiLFwiaWRcIjpcIjY3YTkzZTRhLWExNmMtNDk5MC04OTAwLWUzOGVmMDc3Y2UzNFwifSxcInRlbmFudFwiOntcInR5cGVcIjpcImFjY291bnRcIixcImlkXCI6XCI4ZmM4NTk4ZS02MDkwLTQ1MjMtOTFhYS1jOWY2YzI5NjU4MGFcIn19IiwiaWF0IjoxNzAzMTE4Mjc5fQ.AF-EsFQbdn5SGdRRm8S4qdzADtNJtvAIPYEnO-BrhnUg5b-IRHKB8MVEVwRa6_0uA4ia85YXEC2BdJb6z5MuSUMCAMUrWjQhHxGjKXfe3KFrJEMFhuPPSFlaEKKgGdUD6FjOyLHKhQ4AccraHbYRi5aaNzujZn6ZOkAginvKQms6ji7B_LBCqauRjgnt2xTXxXkhdlfc2lpwsPu2OzwPxG5GulcVWaKpb7IuqRvO5AhovbzMTB7uJBZozfUnXh69FtEGq-r_7zFued2YtYiDZ5reacJg4mWWJUANkv3F0wU-bi72ZwOaYDCAAy35Wl_hHiHIHF1tQbhBpsTwlg0UkQ';
-const EMAIL_SERVICE_USER = 'info@rapidkitchens.co.uk'; // Your Gmail address
-const EMAIL_SERVICE_PASS = 'rhemtkodrnqwhkha'; // Your Gmail App Password
-const WIX_SITE_ID = 'd6d53203-a8ac-44b8-ba37-a3d7de6a7525'; // Replace with your actual Wix site ID
+const WIX_API_KEY = 'Enter Wix Store ID';
+const EMAIL_SERVICE_USER = 'email address'; // Your Gmail address
+const EMAIL_SERVICE_PASS = 'app password'; // Your Gmail App Password
+const WIX_SITE_ID = 'Wix Site ID'; // Replace with your actual Wix site ID
 
 
 app.use(cors());
